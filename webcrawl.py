@@ -8,7 +8,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.remote.webelement import WebElement
 
-countries = ['Canada', 'Germany', 'Iceland', 'Pakistan', 'Singapore', 'South Africa']
+countries = ['India', 'Germany', 'Singapore', 'South Africa']
 
 for country in countries:
     driver = webdriver.Firefox()
